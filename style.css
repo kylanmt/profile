@@ -1,0 +1,94 @@
+body {
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: medium;
+  line-height: 2;
+}
+
+h1, h2 {
+  color: #DCDCDD;
+  line-height: 2;
+}
+
+a {
+  text-decoration: none;
+  color: #B3A393;
+}
+
+a:hover {
+  color: white;
+  transition: 0.4s;
+}
+
+#profile_picture {
+  border-radius: 50%;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.presentation, .social_logos {
+  background-color: #4C5C68;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  padding: 15px;
+  border-radius: 3%;
+  margin: 30px;
+}
+
+.contact_btn {
+  background-color: #4C5C68;
+  position: relative;
+  display: inline-block;
+  padding: 15px 20px;
+  color: white;
+  border-radius: 10px;
+}
+
+.contact_btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#contact_me {
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.fa-brands {
+  font-size: 50px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
